@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://www.brotim.com/telegram/telegram_bot_message_with_php_codeigniter';
 
 /*
 |--------------------------------------------------------------------------

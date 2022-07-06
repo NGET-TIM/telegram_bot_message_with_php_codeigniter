@@ -59,7 +59,13 @@ $autoload['packages'] = array();
 |    $autoload['libraries'] = array('user_agent' => 'ua');
  */
 $autoload['libraries'] = array("telegram/telegram_lib");
+$config['bot_token'] = '5384172866:AAF_IDKdtU6HxO4rctjP-0OuEBqkqU-XCA4';
+$config['chat_id'] = '5384172866';
 
+
+
+// $config['bot_token'] = '5383981712:AAH8AlIahUmEyQKKLUqPDZNqJVCmGgSrtaE';
+// $config['chat_id'] = '5383981712';
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
@@ -89,7 +95,9 @@ $autoload['drivers'] = array();
 |
 |    $autoload['helper'] = array('url', 'file');
  */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url');
+$config['url'] = 'http://www.brotim.com/';
+$config['base_url'] = 'http://www.brotim.com/';
 
 /*
 | -------------------------------------------------------------------
